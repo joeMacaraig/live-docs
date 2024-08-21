@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     id: id,
     info: {
       id,
-      name: `${firstName} ${lastName}`,
+      name: `${firstName} ${lastName || ''}`.trim(),
       email: emailAddresses[0].emailAddress,
       avatar: imageUrl,
       color: getUserColor(id), // generate random colors for users
