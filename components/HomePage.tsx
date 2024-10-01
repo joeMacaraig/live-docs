@@ -50,9 +50,6 @@ export const HomePage = () => {
           />
         </div>
       </div>
-      <div className="absolute bottom-5 text-sm font-light text-gray-400">
-        © 2024 JBM-LiveDocs
-      </div>
     </main>
   );
 };
