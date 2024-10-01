@@ -12,7 +12,7 @@ export const HomePage = () => {
           <Link href="/sign-in">Sign In</Link>
         </div>
       </Header>
-      <div className="block space-y-10 md:flex md:items-center md:gap-10 max-w-6xl mx-auto h-[50vh] px-4">
+      <div className="block space-y-10 md:flex md:items-center md:gap-10 max-w-6xl mx-auto md:h-[50vh] h-full px-4">
         <div className="md:w-[40%] space-y-4">
           <h1 className="font-medium text-xl text-blue-300">LiveDocs</h1>
           <h2 className="font-bold text-4xl">
